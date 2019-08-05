@@ -7,7 +7,7 @@ O(n*logn) at least.
 
 > It should be used when the range of numbers is less than or comparable to size of list to be sorted.
 
-Hence, the magic of counting sort is its linear time complexity O(n).
+Hence, the magic of counting sort lies in its linear time complexity O(n).
 
  Let us understand the algorithm with an example.
 
@@ -85,7 +85,13 @@ Let us understand this with the example shown above.
 
 This explains the stability of counting sort.
 
+
+Submitted by : [Ayushi Negi](https://github.com/ayushin78)
+
 ## Implementation
+
+- [C Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Counting_Sort/Counting_Sort.c)
+> :rocket: [Compile Online](https://repl.it/EKfI/2) :rocket:
 
 - [C++ Code](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Counting_Sort/Counting_Sort.cpp)
 > :rocket: [Compile Online](https://repl.it/C6jK) :rocket:

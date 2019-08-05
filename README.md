@@ -1,11 +1,12 @@
 [![Gitter](https://badges.gitter.im/Algo_Ds_Notes/Algo_Ds_Notes.svg)](https://gitter.im/Algo_Ds_Notes/Algo_Ds_Notes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+<a href='https://play.google.com/store/apps/details?id=com.algopack.scibots.algopack&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="35"></a>
 
 
-# Welcome to Algorithm and Data Structure Notes :clipboard:
+## Welcome to Algorithm and Data Structure Notes :clipboard:
 
 Our open source community is focussed on understanding the concepts and while doing so, whenever someone gets trapped, they can see one way to code in any language they want. So, we are developing a repository having implementation in as many languages as we can.
 
-> [Index](https://github.com/jainaman224/Algo_Ds_Notes/blob/master/Index.md)
+> [Index](INDEX.md)
 
 ## Steps to follow :scroll:
 
@@ -137,6 +138,11 @@ Please discuss it with us first by creating new issue.
 
 ## Code Maintainers  :sunglasses:
 
+**C**
+
+| [ayushin78](https://github.com/ayushin78) |
+| --- |
+
 **CoffeeScript**
 
 | [jainaman224](https://github.com/jainaman224) |
@@ -144,8 +150,8 @@ Please discuss it with us first by creating new issue.
 
 **Cplusplus**
 
-| [AnkitaKhurana](https://github.com/AnkitaKhurana) | [KavyaSharma](https://github.com/KavyaSharma) | [nj4710](https://github.com/nj4710)| [sidgorey](https://github.com/sidgorey) | [uday1201](https://github.com/uday1201) |
-| --- | --- | --- | --- | --- |
+| [KavyaSharma](https://github.com/KavyaSharma) | [sidgorey](https://github.com/sidgorey) | [uday1201](https://github.com/uday1201) |
+| --- | --- | --- |
 
 **CSharp**
 
@@ -154,8 +160,8 @@ Please discuss it with us first by creating new issue.
 
 **Java**
 
-| [adishjain](https://github.com/adishjain) | [KavyaSharma](https://github.com/KavyaSharma) | [nj4710](https://github.com/nj4710) | [ayushin78](https://github.com/ayushin78) |
-| --- | --- | --- | --- |
+| [adishjain](https://github.com/adishjain) | [ayushin78](https://github.com/ayushin78) | [nj4710](https://github.com/nj4710) |
+| --- | --- | --- |
 
 **JavaScript**
 
@@ -169,8 +175,8 @@ Please discuss it with us first by creating new issue.
 
 **Php**
 
-| [MehakJain96](https://github.com/MehakJain96) | [nihalC07](https://github.com/nihalC07) | [swatinirwal](https://github.com/swatinirwal) |
-| --- | --- | --- |
+| [MehakJain96](https://github.com/MehakJain96) |
+| --- |
 
 **Python**
 
@@ -193,6 +199,7 @@ Please discuss it with us first by creating new issue.
     - Object Oriented Programming with C++ by E Balaguruswamy
 - Websites :computer:
     - [GeeksforGeeks](http://www.geeksforgeeks.org)
+    - [hackerearth](https://www.hackerearth.com/notes)
+    - [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials)
     - [tutorialspoint](http://www.tutorialspoint.com)
     - [Wikipedia](https://en.wikipedia.org)
-    - [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials)

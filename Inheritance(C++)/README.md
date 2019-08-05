@@ -2,7 +2,7 @@
 
 Inheritance is where *derived class* inherits the members (variables and functions) of *base class*.
 
-The benefit of inheritance is that the derived class does not have to redeclare all the members which it inherits from the base class. Hence, reusability is achieved this makes code cleaner.
+The benefit of inheritance is that the derived class does not have to redeclare all the members which it inherits from the base class. Hence, reusability is achieved which makes the code cleaner.
 
 ## Types of Inheritance
 
@@ -30,7 +30,7 @@ We have **five** types of Inheritance. Namely,
 
 	In this type of inheritance the derived class inherits from a class, which in turn inherits from some other class. The Super class for one, is sub class for the other.
 
-	![_Multilevel Inheritance_](http://s3.amazonaws.com/readers/2010/02/27/multilevelinheritance_1.png)
+	![_Multilevel Inheritance_](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/346588/how-to-use-multilevel-inheritance-in-java/Images/multilevel.jpg)
 
 5. **Hybrid Inheritance**
 

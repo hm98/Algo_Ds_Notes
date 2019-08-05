@@ -1,7 +1,11 @@
 class Heap_Sort
 {
-    // Conquer
-    public static void Heapify(int[] array, int root, int size)
+    /* Max heapify the node 
+    *  Which is , interchanging largest children with the root of those children
+    *  to build Max heaps, its assume that the level below the root to be max-heapified are
+    *  already max heaps
+    */
+    public static void MaxHeapify(int[] array, int root, int size)
     {
         int left = 2 * root + 1, largest;
         int right = left + 1, temp;
@@ -19,20 +23,23 @@ class Heap_Sort
             temp = array[root];
             array[root] = array[largest];
             array[largest] = temp;
-            Heapify(array, largest, size);
+            MaxHeapify(array, largest, size);
         }
     }
 
-    // Divide array into halves
-    public static void Build_Heap(int[] array, int size)
+    // MaxHeapify that nodes having leaves or max heap nodes as children
+    public static void Build_Max_Heap(int[] array, int size)
     {
+        /** as leaves are already max heaps , hence iteration starts from n/2 ... 0th index
+        *   n/2 ... n are leaves
+        **/
         for(int i = (size - 1) / 2; i >= 0; i--)
-            Heapify(array, i, size);
+            MaxHeapify(array, i, size);
     }
 
     public static void HeapSort(int array[], int size)
     {
-        Build_Heap(array, size);
+        Build_Max_Heap(array, size);
         int temp, i;
 
         for(i = size - 1; i > 0; i--)
@@ -40,7 +47,7 @@ class Heap_Sort
             temp = array[0];
             array[0] = array[i];
             array[i] = temp;
-            Heapify(array, 0, i);
+            MaxHeapify(array, 0, i);
         }
     }
 
